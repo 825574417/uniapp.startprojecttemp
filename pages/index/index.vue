@@ -1,15 +1,15 @@
 <template>
 	<view class="content">
-		Hmoe
+		Hmoe {{cui}}
 	</view>
 </template>
 
 <script>
 	import service from '../../service'
+	import vuex from 'vuex'
 	export default {
-		onLoad() {
-
-
+		computed: {
+			...vuex.mapState('config', ['cui'])
 		},
 	}
 </script>

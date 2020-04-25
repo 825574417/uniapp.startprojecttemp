@@ -4,10 +4,12 @@ import record from './initialization/record.js'
 import cache from './initialization/cache.js'
 import moment from './initialization/moment.js'
 import http from './initialization/http.js'
+import load from './initialization/load.js'
 export default{
 	event,
 	record,
 	cache,
 	moment,
-	http
+	http,
+	load
 }

@@ -10,7 +10,17 @@ export default{
 			contrast: 'white',
 			aux: 'orange'
 		},
+		cui: {
+			StatusBar: null,
+			CustomBar: null,
+			Custom: null,
+		},
 		// 设备信息
 		sys: uni.getSystemInfoSync()
+	},
+	mutations: {
+		setColorui(state, cui){
+			state.cui = cui;
+		}
 	}
 }
