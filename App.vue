@@ -1,12 +1,12 @@
 <script>
 	import store from './store'
-	import service from './service'
+	import {Load} from './service'
 	export default {
 		onLaunch() {
 			// 设备信息
 			let sys = store.state.config.sys;
 			// 初始化
-			service.load.colorui(sys, store);
+			Load.colorui(sys, store);
 			
 		},
 		onShow() {},

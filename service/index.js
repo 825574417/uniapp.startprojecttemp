@@ -5,11 +5,13 @@ import cache from './initialization/cache.js'
 import moment from './initialization/moment.js'
 import http from './initialization/http.js'
 import load from './initialization/load.js'
-export default{
-	event,
-	record,
-	cache,
-	moment,
-	http,
-	load
-}
+import nav from './initialization/nav.js'
+import qs from './initialization/qs.js'
+export const Event = event;
+export const Record = record;
+export const Cache = cache;
+export const Moment = moment;
+export const Http = http;
+export const Load = load;
+export const Nav = nav;
+export const Qs = qs;
